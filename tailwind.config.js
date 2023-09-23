@@ -7,6 +7,10 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			screens: {
+				laptop: '1110px',
+				mobile: '384px',
+			},
 			colors: {
 				white: {
 					200: '#F0EBFA',
