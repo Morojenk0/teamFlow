@@ -7,7 +7,7 @@
 		<title>title</title>
 	</head>
 	<body>
-		<header class="bg-[url(./img/shapes/hero-bg.svg)]">
+		<header class="bg-[url(./img/shapes/hero-bg.svg)] bg-no-repeat">
 			<nav class="">
 				<div
 					class="flex container items-center justify-between mx-auto px-4 pt-8"
@@ -31,7 +31,7 @@
 								How it Works
 							</p>
 							<ul
-								class="hidden absolute overflow-hidden min-w-[13rem] rounded bg-gray-200 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] group-hover:block"
+								class="hidden absolute z-[9999] overflow-hidden min-w-[13rem] rounded bg-gray-200 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] group-hover:block"
 							>
 								<li class="">
 									<a
@@ -63,7 +63,7 @@
 								Product
 							</p>
 							<ul
-								class="hidden absolute overflow-hidden min-w-[13rem] rounded bg-gray-200 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] group-hover:block"
+								class="hidden absolute z-[9999] overflow-hidden min-w-[13rem] rounded bg-gray-200 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] group-hover:block"
 							>
 								<li class="">
 									<a
@@ -100,7 +100,7 @@
 								Resources
 							</p>
 							<ul
-								class="hidden absolute overflow-hidden min-w-[13rem] rounded bg-gray-200 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] group-hover:block"
+								class="hidden absolute z-[9999] overflow-hidden min-w-[13rem] rounded bg-gray-200 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] group-hover:block"
 							>
 								<li class="">
 									<a
@@ -140,7 +140,7 @@
 					</div>
 					<div class="laptop:hidden">
 						<button
-							class="flex flex-col space-y-[4px] font-inter text-[0.5rem] font-normal text-gray-400 uppercase"
+							class="flex flex-col box-content -ml-2 p-2 space-y-[4px] font-inter text-[0.5rem] font-normal text-gray-400 uppercase"
 						>
 							<span
 								class="w-6 h-[0.16669rem] bg-gray rounded-full"
@@ -156,21 +156,21 @@
 					</div>
 				</div>
 			</nav>
+			<!-- ! resolution hero && google -->
+			<!-- ! bg image -->
+			<!-- ? try to mt-1 laptop:mt-3 -->
 			<!-- ! fix after before  -->
-			<!-- ! try to mt-1 laptop:mt-3 -->
-			<!-- ! outline border when focus? -->
-			<!-- ? add shadow when focus instead of outline:transparent -->
 			<section class="">
 				<div class="container mx-auto px-4 pt-8">
 					<section class="">
 						<div class="flex justify-center">
 							<p
-								class="rounded-[6.25rem] font-medium text-white bg-green px-4 py-2"
+								class="hidden laptop:block mr-[11rem] absolute rounded-[6.25rem] font-medium text-white bg-green px-4 py-2"
 							>
 								Save 90%
 							</p>
 							<p
-								class="px-4 py-1 rounded-[6.25rem] bg-green-800 text-gray font-inter text-base font-normal laptop:px-4 laptop:py-2 laptop:text-base after:content-[url('./img/svg/arrow-right.svg')] after:ml-1"
+								class="laptop:min-w-[15rem] laptop:text-end px-4 py-1 laptop:ml-12 rounded-[6.25rem] bg-green-300 text-gray font-inter text-base font-normal laptop:px-4 laptop:py-2 laptop:text-base after:content-[url('./img/svg/arrow-right.svg')] after:ml-1"
 								id="test"
 							>
 								Get account of $59
@@ -190,7 +190,7 @@
 						</p>
 						<div class="mt-4 laptop:mt-6 laptop:flex">
 							<input
-								class="px-6 border text-gray font-inter text-base font-normal text-center border-gray-300 border-solid bg-white rounded w-full py-[1.12rem] placeholder:text-gray-300 outline-gray-300 focus:placeholder:text-transparent laptop:text-start laptop:rounded-none laptop:rounded-s"
+								class="laptop:focus:shadow-[inset_0_0_0_1px_#97A5B5] laptop:outline-none px-6 border text-gray font-inter text-base font-normal text-center border-gray-300 border-solid bg-white rounded w-full py-[1.12rem] placeholder:text-gray-300 outline-gray-300 focus:placeholder:text-transparent laptop:text-start laptop:rounded-none laptop:rounded-s"
 								placeholder="name@yourcompany.com"
 								type="email"
 							/><button
@@ -199,6 +199,69 @@
 							>
 								Try it free
 							</button>
+						</div>
+					</section>
+					<div>
+						<img
+							class="mt-8 laptop:mt-12 shadow-[0px_0px_48px_-8px_rgba(29,_40,_48,_0.18)]"
+							src="./img/account.png"
+							alt="graph"
+						/>
+					</div>
+					<section class="">
+						<div class="mt-[3.54rem] laptop:mt-[6.30rem]">
+							<h3
+								class="text-center text-gray-400 font-inter text-[0.6875rem] leading-[0.6875rem] font-normal uppercase laptop:text-[1rem] laptop:leading-[1rem]"
+							>
+								trusted by over
+								<span class="font-bold">10.000+</span> world’s
+								best teams
+							</h3>
+							<div class="mt-6 flex justify-between items-center">
+								<a
+									class=""
+									href="https://google.com"
+									target="_blank"
+									><img
+										class=""
+										src="./img/svg/google-2015.svg"
+										alt="google-2015"
+								/></a>
+								<a
+									class=""
+									href="https://airbnb.com"
+									target="_blank"
+									><img
+										class=""
+										src="./img/svg/airbnb.svg"
+										alt="airbnb"
+								/></a>
+								<a
+									class=""
+									href="https://facebook.com"
+									target="_blank"
+									><img class="" src="./img/svg/facebook.svg"
+									alt="facebook" /</a
+								>
+								<a
+									class=""
+									href="https://hubspot.com"
+									target="_blank"
+									><img
+										class=""
+										src="./img/svg/hubspot.svg"
+										alt="hubspot"
+								/></a>
+								<a
+									class=""
+									href="https://slack.com"
+									target="_blank"
+									><img
+										class="hidden laptop:block"
+										src="./img/svg/slack.svg"
+										alt="slack"
+								/></a>
+							</div>
 						</div>
 					</section>
 				</div>
