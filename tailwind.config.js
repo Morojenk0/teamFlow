@@ -7,14 +7,14 @@ module.exports = {
 	],
 	theme: {
 		screens: {
-			laptop: '1440px',
+			desktop: '1440px',
 			mobile: '414px',
 		},
 		container: {
 			center: true,
 			padding: {
 				mobile: '1rem',
-				laptop: '10.3rem',
+				desktop: '10.3rem',
 			},
 		},
 		extend: {

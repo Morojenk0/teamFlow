@@ -15,14 +15,14 @@
 					<div class="">
 						<a class="" href="#">
 							<img
-								class="box-content -ml-2 p-2 laptop:w-[5.75rem] laptop:h-[1.5rem]"
+								class="box-content -ml-2 p-2 desktop:w-[5.75rem] desktop:h-[1.5rem]"
 								src="./img/svg/logo.svg"
 								alt="logo"
 							/>
 						</a>
 					</div>
 					<div
-						class="hidden items-center space-x-[0.75rem] laptop:flex laptop:ml-[15%]"
+						class="hidden items-center space-x-[0.75rem] desktop:flex desktop:ml-[15%]"
 					>
 						<div class="group relative">
 							<p
@@ -126,7 +126,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="hidden laptop:block">
+					<div class="hidden desktop:block">
 						<a
 							class="p-4 text-gray font-inter text-base font-normal hover:underline hover:bg-gray-200 rounded"
 							href="#"
@@ -138,7 +138,7 @@
 							>Get started free</a
 						>
 					</div>
-					<div class="laptop:hidden">
+					<div class="desktop:hidden">
 						<button
 							class="flex flex-col box-content -ml-2 p-2 space-y-[4px] font-inter text-[0.5rem] font-normal text-gray-400 uppercase"
 						>
@@ -157,9 +157,8 @@
 				</div>
 			</nav>
 			<!-- ! check margins and paddings mb wrong -->
-			<!-- ! 2 variants. mobile and dekstop or source from mobile, and w && h for dekstop -->
 			<!-- ! bg image -->
-			<!-- ? try to mt-1 laptop:mt-3 -->
+			<!-- ? try to mt-1 desktop:mt-3 	-->
 			<!-- ! fix after before  -->
 			<!-- ! do mobile and dekstop, after all, adapt other devices -->
 			<section class="">
@@ -167,36 +166,37 @@
 					<section class="w-[90%] mx-auto">
 						<div class="flex justify-center">
 							<p
-								class="hidden laptop:block mr-[11rem] absolute rounded-[6.25rem] font-medium text-white bg-green px-4 py-2"
+								class="hidden z-30 desktop:block mr-[11rem] absolute rounded-[6.25rem] font-medium text-white bg-green px-4 py-2"
 							>
 								Save 90%
 							</p>
 							<p
-								class="laptop:min-w-[15rem] laptop:text-end px-4 py-1 laptop:ml-12 rounded-[6.25rem] bg-green-300 text-gray font-inter text-base font-normal laptop:px-4 laptop:py-2 laptop:text-base after:content-[url('./img/svg/arrow-right.svg')] after:ml-1"
+								class="relative desktop:min-w-[14rem] desktop:text-end px-4 py-1 desktop:ml-12 rounded-[6.25rem] bg-green-300 text-gray font-inter text-base font-normal desktop:px-4 desktop:py-2 desktop:text-base after:absolute after:right-[0%] after:mr-[.5rem] after:ml-[-6px] after:mt-[-2px] after:content-[url('./img/svg/arrow-right.svg')]"
 								id="test"
 							>
 								Get account of $59
+								<!-- after:absolute after:right-[0%] after:mr-[.5rem] after:ml-[-6px] after:mt-[-2px] after:content-[url('./img/svg/arrow-right.svg')] -->
 							</p>
 						</div>
 						<h1
-							class="mt-4 text-center text-gray font-inter text-[2rem] leading-[2.5rem] font-semibold laptop:text-[4rem] laptop:leading-[4.5rem] laptop:mt-6"
+							class="mt-4 text-center text-gray font-inter text-[2rem] leading-[2.5rem] font-semibold desktop:text-[4rem] desktop:leading-[4.5rem] desktop:mt-6"
 						>
 							Manage the team everyone wants to be on
 						</h1>
 						<p
-							class="mt-4 text-gray-400 font-inter text-base font-normal laptop:mt-6"
+							class="mt-4 text-gray-400 font-inter text-base font-normal desktop:mt-6"
 						>
 							Simple platform that lets you master what great
 							managers do best, as develop trust, collaborate, and
 							drive team performance.
 						</p>
-						<div class="mt-4 laptop:mt-6 laptop:flex">
+						<div class="mt-4 desktop:mt-6 desktop:flex">
 							<input
-								class="laptop:focus:shadow-[inset_0_0_0_1px_#97A5B5] laptop:outline-none px-6 border text-gray font-inter text-base font-normal text-center border-gray-300 border-solid bg-white rounded w-full py-[1.12rem] placeholder:text-gray-300 outline-gray-300 focus:placeholder:text-transparent laptop:text-start laptop:rounded-none laptop:rounded-s"
+								class="desktop:focus:shadow-[inset_0_0_0_1px_#97A5B5] desktop:outline-none px-6 border text-gray font-inter text-base font-normal text-center border-gray-300 border-solid bg-white rounded w-full py-[1.12rem] placeholder:text-gray-300 outline-gray-300 focus:placeholder:text-transparent desktop:text-start desktop:rounded-none desktop:rounded-s"
 								placeholder="name@yourcompany.com"
 								type="email"
 							/><button
-								class="mt-2 laptop:mt-0 w-full py-[1.12rem] rounded bg-purple text-white font-inter text-base font-medium hover:bg-purple-500 laptop:rounded-none laptop:rounded-e"
+								class="mt-2 desktop:mt-0 w-full py-[1.12rem] rounded bg-purple text-white font-inter text-base font-medium hover:bg-purple-500 desktop:rounded-none desktop:rounded-e"
 								type="submit"
 							>
 								Try it free
@@ -205,15 +205,15 @@
 					</section>
 					<div>
 						<img
-							class="mt-8 laptop:mt-12 shadow-[0px_0px_48px_-8px_rgba(29,_40,_48,_0.18)]"
+							class="mt-8 desktop:mt-12 shadow-[0px_0px_48px_-8px_rgba(29,_40,_48,_0.18)]"
 							src="./img/account.png"
 							alt="graph"
 						/>
 					</div>
 					<section class="">
-						<div class="mt-[3.54rem] laptop:mt-[6.30rem]">
+						<div class="mt-[3.54rem] desktop:mt-[6.30rem]">
 							<h3
-								class="text-center text-gray-400 font-inter text-[0.6875rem] leading-[0.6875rem] font-normal uppercase laptop:text-[1rem] laptop:leading-[1rem]"
+								class="text-center text-gray-400 font-inter text-[0.6875rem] leading-[0.6875rem] font-normal uppercase desktop:text-[1rem] desktop:leading-[1rem]"
 							>
 								trusted by over
 								<span class="font-bold">10.000+</span> world’s
@@ -259,7 +259,7 @@
 									href="https://slack.com"
 									target="_blank"
 									><img
-										class="hidden laptop:block"
+										class="hidden desktop:block"
 										src="./img/svg/slack.svg"
 										alt="slack"
 								/></a>
