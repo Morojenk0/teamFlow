@@ -7,15 +7,15 @@
 		<title>title</title>
 	</head>
 	<body>
-		<header class="bg-[url(./img/shapes/hero-bg.svg)] bg-no-repeat">
+		<header
+			class="bg-[url(./img/shapes/hero-bg.svg)] bg-no-repeat bg-cover"
+		>
 			<nav class="">
-				<div
-					class="flex container items-center justify-between mx-auto px-4 pt-8"
-				>
+				<div class="flex container items-center justify-between pt-8">
 					<div class="">
 						<a class="" href="#">
 							<img
-								class="box-content -ml-2 p-2"
+								class="box-content -ml-2 p-2 laptop:w-[5.75rem] laptop:h-[1.5rem]"
 								src="./img/svg/logo.svg"
 								alt="logo"
 							/>
@@ -156,13 +156,15 @@
 					</div>
 				</div>
 			</nav>
-			<!-- ! resolution hero && google -->
+			<!-- ! check margins and paddings mb wrong -->
+			<!-- ! 2 variants. mobile and dekstop or source from mobile, and w && h for dekstop -->
 			<!-- ! bg image -->
 			<!-- ? try to mt-1 laptop:mt-3 -->
 			<!-- ! fix after before  -->
+			<!-- ! do mobile and dekstop, after all, adapt other devices -->
 			<section class="">
-				<div class="container mx-auto px-4 pt-8">
-					<section class="">
+				<div class="container mx-auto px-4 pt-[6.25rem]">
+					<section class="w-[90%] mx-auto">
 						<div class="flex justify-center">
 							<p
 								class="hidden laptop:block mr-[11rem] absolute rounded-[6.25rem] font-medium text-white bg-green px-4 py-2"

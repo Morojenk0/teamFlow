@@ -6,11 +6,18 @@ module.exports = {
 		'./src/components/**/*.{js,jsx,ts,tsx}',
 	],
 	theme: {
-		extend: {
-			screens: {
-				laptop: '1110px',
-				mobile: '384px',
+		screens: {
+			laptop: '1440px',
+			mobile: '414px',
+		},
+		container: {
+			center: true,
+			padding: {
+				mobile: '1rem',
+				laptop: '10.3rem',
 			},
+		},
+		extend: {
 			colors: {
 				white: {
 					200: '#F0EBFA',
