@@ -8,21 +8,25 @@
 	</head>
 	<body>
 		<header
-			class="bg-[url(./img/shapes/hero-bg.svg)] bg-no-repeat bg-cover"
+			class="bg-[url(./img/shapes/hero-bg.svg)] bg-no-repeat bg-top desktop:bg-[url(./img/shapes/hero-bg-desktop.svg)]"
 		>
 			<nav class="">
-				<div class="flex container items-center justify-between pt-8">
+				<div class="container flex items-center justify-between pt-8">
 					<div class="">
+						<!-- 1. Sizes
+						2. Flex 
+						3. Position
+						4. Styles -->
 						<a class="" href="#">
 							<img
-								class="box-content -ml-2 p-2 desktop:w-[5.75rem] desktop:h-[1.5rem]"
+								class="box-content w-[4.8rem] h-[1.25rem] -ml-2 p-2 desktop:w-[5.75rem] desktop:h-[1.5rem]"
 								src="./img/svg/logo.svg"
 								alt="logo"
 							/>
 						</a>
 					</div>
 					<div
-						class="hidden items-center space-x-[0.75rem] desktop:flex desktop:ml-[15%]"
+						class="hidden items-center space-x-[0.75rem] desktop:ml-[15%] desktop:flex"
 					>
 						<div class="group relative">
 							<p
@@ -157,61 +161,67 @@
 				</div>
 			</nav>
 			<!-- ! check margins and paddings mb wrong -->
-			<!-- ! bg image -->
-			<!-- ? try to mt-1 desktop:mt-3 	-->
-			<!-- ! fix after before  -->
-			<!-- ! do mobile and dekstop, after all, adapt other devices -->
 			<section class="">
-				<div class="container mx-auto px-4 pt-[6.25rem]">
-					<section class="w-[90%] mx-auto">
-						<div class="flex justify-center">
-							<p
-								class="hidden z-30 desktop:block mr-[11rem] absolute rounded-[6.25rem] font-medium text-white bg-green px-4 py-2"
-							>
-								Save 90%
-							</p>
-							<p
-								class="relative desktop:min-w-[14rem] desktop:text-end px-4 py-1 desktop:ml-12 rounded-[6.25rem] bg-green-300 text-gray font-inter text-base font-normal desktop:px-4 desktop:py-2 desktop:text-base after:absolute after:right-[0%] after:mr-[.5rem] after:ml-[-6px] after:mt-[-2px] after:content-[url('./img/svg/arrow-right.svg')]"
-								id="test"
-							>
-								Get account of $59
-								<!-- after:absolute after:right-[0%] after:mr-[.5rem] after:ml-[-6px] after:mt-[-2px] after:content-[url('./img/svg/arrow-right.svg')] -->
-							</p>
-						</div>
-						<h1
-							class="mt-4 text-center text-gray font-inter text-[2rem] leading-[2.5rem] font-semibold desktop:text-[4rem] desktop:leading-[4.5rem] desktop:mt-6"
+				<div
+					class="container pt-[3.5rem] pb-[3.5rem] desktop:pb-[6.3rem]"
+				>
+					<section class="">
+						<div
+							class="w-[20rem] desktop:w-[47.5rem] flex flex-col text-center items-center mx-auto"
 						>
-							Manage the team everyone wants to be on
-						</h1>
-						<p
-							class="mt-4 text-gray-400 font-inter text-base font-normal desktop:mt-6"
-						>
-							Simple platform that lets you master what great
-							managers do best, as develop trust, collaborate, and
-							drive team performance.
-						</p>
-						<div class="mt-4 desktop:mt-6 desktop:flex">
-							<input
-								class="desktop:focus:shadow-[inset_0_0_0_1px_#97A5B5] desktop:outline-none px-6 border text-gray font-inter text-base font-normal text-center border-gray-300 border-solid bg-white rounded w-full py-[1.12rem] placeholder:text-gray-300 outline-gray-300 focus:placeholder:text-transparent desktop:text-start desktop:rounded-none desktop:rounded-s"
-								placeholder="name@yourcompany.com"
-								type="email"
-							/><button
-								class="mt-2 desktop:mt-0 w-full py-[1.12rem] rounded bg-purple text-white font-inter text-base font-medium hover:bg-purple-500 desktop:rounded-none desktop:rounded-e"
-								type="submit"
+							<div class="flex justify-center">
+								<p
+									class="hidden desktop:block px-4 py-2 mr-[11rem] absolute z-30 rounded-[6.25rem] font-medium text-white bg-green"
+								>
+									Save 90%
+								</p>
+								<p
+									class="relative desktop:min-w-[14rem] desktop:text-end px-4 py-1 desktop:px-4 desktop:py-2 rounded-[6.25rem] bg-green-300 text-gray font-inter text-base font-normal desktop:text-base after:absolute after:right-[0%] after:mr-[.5rem] after:ml-[-6px] after:mt-[-2px] after:content-[url('./img/svg/arrow-right.svg')] desktop:ml-12"
+									id="test"
+								>
+									Get account of $59
+									<!-- after:absolute after:right-[0%] after:mr-[.5rem] after:ml-[-6px] after:mt-[-2px] after:content-[url('./img/svg/arrow-right.svg')] -->
+								</p>
+							</div>
+							<h1
+								class="mt-4 w-[20rem] desktop:mt-6 text-gray font-inter text-[2rem] desktop:text-[4rem] leading-[2.5rem] desktop:leading-[4.5rem] font-semibold desktop:w-[47.5rem]"
 							>
-								Try it free
-							</button>
+								Manage the team everyone wants to be on
+							</h1>
+							<p
+								class="mt-4 desktop:mt-6 text-gray-400 font-inter text-base font-normal desktop:w-[31.6rem]"
+							>
+								Simple platform that lets you master what great
+								managers do best, as develop trust, collaborate,
+								and drive team performance.
+							</p>
+							<div
+								class="mt-4 desktop:w-[30.335rem] desktop:mt-6 desktop:flex"
+							>
+								<input
+									class="w-full py-[1.12rem] px-6 text-gray font-inter text-base font-normal text-center border border-gray-200 rounded border-solid bg-white outline-gray-300 placeholder:text-gray-300 focus:placeholder:text-transparent desktop:text-start desktop:rounded-none desktop:rounded-s desktop:focus:border-gray-300 desktop:outline-none desktop:focus:shadow-[inset_0_0_0_1px_#97A5B5] desktop:w-[70%]"
+									placeholder="name@yourcompany.com"
+									type="email"
+								/><button
+									class="w-full mt-2 desktop:mt-0 py-[1.12rem] rounded bg-purple text-white font-inter text-base font-medium hover:bg-purple-500 desktop:rounded-none desktop:rounded-e desktop:w-[30%]"
+									type="submit"
+								>
+									Try it free
+								</button>
+							</div>
 						</div>
 					</section>
-					<div>
+					<div class="flex justify-center">
 						<img
-							class="mt-8 desktop:mt-12 shadow-[0px_0px_48px_-8px_rgba(29,_40,_48,_0.18)]"
+							class="mt-8 desktop:mt-12 w-[24rem] h-[17rem] desktop:w-[57.5rem] desktop:h-[41rem] shadow-[0px_0px_48px_-8px_rgba(29,_40,_48,_0.18)]"
 							src="./img/account.png"
 							alt="graph"
 						/>
 					</div>
 					<section class="">
-						<div class="mt-[3.54rem] desktop:mt-[6.30rem]">
+						<div
+							class="mt-[3.50rem] desktop:mt-[6.30rem] flex flex-col items-center"
+						>
 							<h3
 								class="text-center text-gray-400 font-inter text-[0.6875rem] leading-[0.6875rem] font-normal uppercase desktop:text-[1rem] desktop:leading-[1rem]"
 							>
@@ -219,13 +229,15 @@
 								<span class="font-bold">10.000+</span> world’s
 								best teams
 							</h3>
-							<div class="mt-6 flex justify-between items-center">
+							<div
+								class="w-[20rem] mt-4 desktop:mt-6 flex justify-between items-center desktop:w-[59.5rem]"
+							>
 								<a
 									class=""
 									href="https://google.com"
 									target="_blank"
 									><img
-										class=""
+										class="box-content -ml-2 p-2 w-[3.5rem] h-[1.4rem] desktop:w-[5rem] desktop:h-[1.6rem]"
 										src="./img/svg/google-2015.svg"
 										alt="google-2015"
 								/></a>
@@ -234,7 +246,7 @@
 									href="https://airbnb.com"
 									target="_blank"
 									><img
-										class=""
+										class="box-content -ml-2 p-2 w-[3.5rem] h-[1.1rem] desktop:w-[5rem] desktop:h-[1.5rem]"
 										src="./img/svg/airbnb.svg"
 										alt="airbnb"
 								/></a>
@@ -242,24 +254,26 @@
 									class=""
 									href="https://facebook.com"
 									target="_blank"
-									><img class="" src="./img/svg/facebook.svg"
-									alt="facebook" /</a
-								>
+									><img
+										class="box-content -ml-2 p-2 w-[3.3rem] h-[.6rem] desktop:w-[4.8rem] desktop:h-[1rem]"
+										src="./img/svg/facebook.svg"
+										alt="facebook"
+								/></a>
 								<a
 									class=""
 									href="https://hubspot.com"
 									target="_blank"
 									><img
-										class=""
+										class="box-content -ml-2 p-2 w-[3.5rem] h-[1rem] desktop:w-[5rem] desktop:h-[1.5rem]"
 										src="./img/svg/hubspot.svg"
 										alt="hubspot"
 								/></a>
 								<a
-									class=""
+									class="hidden desktop:block"
 									href="https://slack.com"
 									target="_blank"
 									><img
-										class="hidden desktop:block"
+										class="desktop box-content -ml-2 p-2 :w-[5rem] desktop:h-[1.25rem]"
 										src="./img/svg/slack.svg"
 										alt="slack"
 								/></a>
