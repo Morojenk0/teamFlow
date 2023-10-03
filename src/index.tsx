@@ -2,12 +2,13 @@ import * as React from 'react'
 import {createRoot} from 'react-dom/client'
 import App from './App'
 import './style.css'
+import Slider from './components/Slider/Slider'
 
-const RootElement = document.getElementById('root')
+const RootElement = document.getElementById('slider')
 const root = createRoot(RootElement!)
 root.render(
 	<React.StrictMode>
-		<App />
+		<Slider />
 	</React.StrictMode>
 )
 const features = document.querySelectorAll('#feauturesList :nth-child(+n + 4')
