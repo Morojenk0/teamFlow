@@ -34,10 +34,11 @@ module.exports = {
 					300: '#97A5B5',
 					400: '#4E5A65',
 					DEFAULT: '#35414B',
-					900: '1D2830',
+					900: '#1D2830',
 				},
 				purple: {
 					200: '#ECE5FF',
+					400: '#796EFF',
 					DEFAULT: '#794CFF',
 				},
 			},
