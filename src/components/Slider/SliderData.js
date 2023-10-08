@@ -2,7 +2,7 @@
 import React from 'react'
 import {v4 as uuidv4} from 'uuid'
 
-const SliderButtonData = [
+export const buttonData = [
 	{
 		title: 'Survey your team',
 		text: 'Powerful questions that get to the heart of how team members really feel.',
@@ -24,5 +24,21 @@ const SliderButtonData = [
 		id: uuidv4(),
 	},
 ]
-
-export default SliderButtonData
+export const imgData = [
+	{
+		alt: 'chat',
+		id: uuidv4(),
+	},
+	{
+		alt: 'chat',
+		id: uuidv4(),
+	},
+	{
+		alt: 'chat',
+		id: uuidv4(),
+	},
+	{
+		alt: 'chat',
+		id: uuidv4(),
+	},
+]

@@ -11,6 +11,9 @@ root.render(
 		<Slider />
 	</React.StrictMode>
 )
+
+// ! try to single items
+
 const features = document.querySelectorAll('#feauturesList :nth-child(+n + 4')
 const feauturesButton = document.getElementById('feauturesButton')
 
