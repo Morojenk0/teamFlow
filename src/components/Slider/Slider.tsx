@@ -11,7 +11,7 @@ export default function Slider() {
 	}
 
 	return (
-		<div className="flex flex-col justify-center items-center ">
+		<div className="flex flex-col justify-center items-center desktop:flex-row desktop:justify-between ">
 			<SliderImages slideIndex={slideIndex} />
 			<SliderButtons slideIndex={slideIndex} setSlide={setSlide} />
 		</div>
