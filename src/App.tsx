@@ -1,12 +1,13 @@
-import * as React from 'react';
-import Component from './components/Slider/Slider';
+import * as React from 'react'
+import Component from './components/Slider/Slider'
+import Slider from './components/Slider/Slider'
 
 const App = () => {
 	return (
 		<>
-			<Component />
+			<Slider />
 		</>
-	);
-};
+	)
+}
 
-export default App;
+export default App
