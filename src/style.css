@@ -19,12 +19,4 @@
 		font-family: 'Inter';
 		src: url('./fonts/Inter/Inter-VariableFont_slnt,wght.ttf');
 	}
-	@font-face {
-		font-family: 'Josefin';
-		src: url('./fonts/JosefinSans/JosefinSans-VariableFont_wght.ttf');
-	}
-	@font-face {
-		font-family: 'Roboto';
-		src: url('./fonts/Roboto/Roboto-Medium.ttf');
-	}
 }
