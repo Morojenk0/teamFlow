@@ -3,11 +3,11 @@ import React from 'react'
 import {imgData} from './SliderData'
 export default function SliderImages({slideIndex}) {
 	return (
-		<div className="w-[24rem] h-[19rem] relative desktop:w-[41rem] desktop:h-[32.4rem]">
+		<div className="w-[24rem] h-[19rem] relative tablet:w-[41rem] tablet:h-[32.4rem]">
 			{imgData.map((obj, index) => {
 				return (
 					<img
-						className={`w-[24rem] h-[19rem] transition-opacity duration-1000 absolute desktop:w-[41rem] desktop:h-[32.4rem] ${
+						className={`w-[24rem] h-[19rem] transition-opacity duration-1000 absolute tablet:w-[41rem] tablet:h-[32.4rem] ${
 							slideIndex === index
 								? 'opacity-100 visible z-10'
 								: 'opacity-0 invisible z-0'
