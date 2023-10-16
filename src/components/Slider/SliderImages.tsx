@@ -3,7 +3,7 @@ import React from 'react'
 import {imgData} from './SliderData'
 export default function SliderImages({slideIndex}) {
 	return (
-		<div className="w-[24rem] h-[19rem] relative tablet:w-[41rem] tablet:h-[32.4rem]">
+		<div className="w-[19rem] h-[17rem] relative mobile:w-[24rem] mobile:h-[19rem] tablet:w-[41rem] tablet:h-[32.4rem]">
 			{imgData.map((obj, index) => {
 				return (
 					<img

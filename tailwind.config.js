@@ -14,17 +14,13 @@ module.exports = {
 				desktop: '10.3rem',
 			},
 		},
-
+		// ? responsive for absolute img
 		extend: {
 			screens: {
 				mobile: '414px',
 				tablet: '1024px',
 				desktop: '1440px',
 			},
-			// ? What about range mobile:414 between md:768
-			// ? try to sm: or md do less breakpoint
-			// check leading
-			// ? .fiter ?
 			colors: {
 				white: {
 					200: '#FBFAFE',
