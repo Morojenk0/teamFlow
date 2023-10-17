@@ -14,7 +14,6 @@ module.exports = {
 				desktop: '10.3rem',
 			},
 		},
-		// ? responsive for absolute img
 		extend: {
 			screens: {
 				mobile: '414px',

@@ -16,7 +16,7 @@ export default function CarouselButtons({setSlide, slideIndex}) {
 						<div
 							className={`w-[16.5rem] h-[4.75rem] pt-[1.5rem] flex items-center justify-center cursor-pointer select-none ${
 								slideIndex === index
-									? 'border-t-[.25rem] border-t-[#35414B] pt-[1.25rem]'
+									? 'border-t-[.25rem] border-t-[#35414B] pt-[1.3rem]'
 									: ''
 							}`}
 						>
