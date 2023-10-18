@@ -1,3 +1,5 @@
-# Webpack
+# Landing page
 
-Default bundle for building project with tailwind/react
+Landing page for practice react and responsive tailwindcss
+
+
