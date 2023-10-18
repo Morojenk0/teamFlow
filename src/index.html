@@ -4,25 +4,25 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>title</title>
+		<title>TeamFlow</title>
 	</head>
 	<body>
 		<header
-			class="bg-[url(./img/shapes/hero-bg.svg)] bg-no-repeat bg-top desktop:bg-[url(./img/shapes/hero-bg-desktop.svg)]"
+			class="bg-white bg-no-repeat bg-top bg-[length:100%_70%] bg-[url('./img/shapes/hero-bg.svg')] desktop:bg-[url('./img/shapes/hero-bg-desktop.svg')]"
 		>
 			<nav class="">
-				<div class="container flex items-center justify-between pt-8">
+				<div class="container pt-8 flex items-center justify-between">
 					<div class="">
 						<a class="" href="#">
 							<img
-								class="w-[4.8rem] h-[1.25rem] -ml-2 p-2 box-content desktop:w-[5.75rem] desktop:h-[1.5rem]"
+								class="w-[4.8rem] h-[1.25rem] -ml-2 p-2 box-content xl:w-[5.75rem] xl:h-[1.5rem]"
 								src="./img/svg/logo.svg"
 								alt="logo"
 							/>
 						</a>
 					</div>
 					<div
-						class="hidden space-x-[0.75rem] desktop:ml-[15%] desktop:flex desktop:items-center"
+						class="hidden space-x-[0.75rem] tablet:ml-[15%] tablet:flex tablet:items-center"
 					>
 						<div class="group relative">
 							<p
@@ -126,7 +126,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="hidden desktop:block">
+					<div class="hidden tablet:block">
 						<a
 							class="p-4 text-gray font-inter text-base font-normal rounded hover:underline hover:bg-gray-200"
 							href="#"
@@ -138,7 +138,7 @@
 							>Get started free</a
 						>
 					</div>
-					<div class="desktop:hidden">
+					<div class="tablet:hidden">
 						<button
 							class="-ml-2 p-2 space-y-[4px] box-content flex flex-col font-inter text-[0.5rem] font-normal text-gray-400 uppercase"
 						>
@@ -158,44 +158,44 @@
 			</nav>
 			<section class="">
 				<div
-					class="container pt-[3.5rem] pb-[3.5rem] desktop:pb-[6.3rem] bg-white"
+					class="container pt-[3.5rem] pb-[3.5rem] desktop:pb-[6.3rem]"
 				>
 					<section class="">
 						<div class="flex flex-col items-center justify-center">
 							<div class="">
 								<p
-									class="hidden mr-[11rem] px-4 py-2 absolute z-30 bg-green rounded-[6.25rem] text-white font-medium desktop:block"
+									class="hidden mr-[11rem] px-4 py-2 absolute z-30 bg-green rounded-[6.25rem] text-white font-medium md:block"
 								>
 									Save 90%
 								</p>
 								<p
-									class="relative px-4 py-1 rounded-[6.25rem] bg-green-300 text-gray font-inter text-base font-normal after:content-[url('./img/svg/arrow-right.svg')] after:mr-[.5rem] after:mt-[-2px] after:ml-[-6px] after:absolute after:right-[0%] desktop:min-w-[14rem] desktop:ml-12 desktop:px-4 desktop:py-2 desktop:text-end desktop:text-base"
+									class="relative px-4 py-1 rounded-[6.25rem] bg-green-300 text-gray font-inter text-base font-normal after:content-[url('./img/svg/arrow-right.svg')] after:mr-[.5rem] after:mt-[-2px] after:ml-[-6px] after:absolute after:right-[0%] md:min-w-[14rem] md:ml-12 md:px-4 md:py-2 md:text-end md:text-base"
 									id="test"
 								>
 									Get account of $59
 								</p>
 							</div>
 							<h1
-								class="w-[20rem] mt-4 text-center text-gray font-inter text-[2rem] leading-[2.5rem] font-semibold desktop:w-[47.5rem] desktop:mt-6 desktop:text-[4rem] desktop:leading-[4.5rem]"
+								class="max-w-[20rem] mt-4 text-center text-gray font-inter text-[2rem] leading-[2.5rem] font-semibold sm:max-w-[47.5rem] sm:mt-6 sm:text-[3rem] sm:leading-[3.5rem] tablet:text-[4rem] tablet:leading-[4.5rem]"
 							>
 								Manage the team everyone wants to be on
 							</h1>
 							<p
-								class="w-[20rem] mt-4 text-gray-400 font-inter text-base font-normal desktop:w-[31.6rem] desktop:mt-6 desktop:text-center"
+								class="max-w-[20rem] mt-4 text-gray-400 font-inter text-base font-normal sm:max-w-[31.6rem] sm:mt-6 sm:text-center"
 							>
 								Simple platform that lets you master what great
 								managers do best, as develop trust, collaborate,
 								and drive team performance.
 							</p>
 							<div
-								class="w-[20rem] mt-4 desktop:w-[30.335rem] desktop:mt-6 desktop:flex"
+								class="w-[20rem] mt-4 md:w-[30.335rem] md:mt-6 md:flex"
 							>
 								<input
-									class="w-full py-[1.12rem] px-6 bg-white border border-solid border-gray-200 rounded outline-gray-300 text-center text-gray font-inter text-base font-normal placeholder:text-gray-300 focus:placeholder:text-transparent desktop:w-[70%] desktop:rounded-none desktop:rounded-s desktop:focus:border-gray-300 desktop:outline-none desktop:text-start desktop:focus:shadow-[inset_0_0_0_1px_#97A5B5]"
+									class="w-full py-[1.12rem] px-6 bg-white border border-solid border-gray-200 rounded outline-gray-300 text-center text-gray font-inter text-base font-normal placeholder:text-gray-300 focus:placeholder:text-transparent md:w-[70%] md:rounded-none md:rounded-s md:focus:border-gray-300 md:outline-none md:text-start md:focus:shadow-[inset_0_0_0_1px_#97A5B5]"
 									placeholder="name@yourcompany.com"
 									type="email"
 								/><button
-									class="w-full mt-2 py-[1.12rem] rounded bg-purple text-white font-inter text-base font-medium hover:bg-purple-500 desktop:w-[30%] desktop:mt-0 desktop:rounded-none desktop:rounded-e"
+									class="w-full mt-2 py-[1.12rem] rounded bg-purple text-white font-inter text-base font-medium hover:bg-purple-500 md:w-[30%] md:mt-0 md:rounded-none md:rounded-e"
 									type="submit"
 								>
 									Try it free
@@ -205,31 +205,31 @@
 					</section>
 					<div class="flex justify-center">
 						<img
-							class="w-[24rem] h-[17rem] mt-8 shadow-[0px_0px_48px_-8px_rgba(29,_40,_48,_0.18)] desktop:w-[57.5rem] desktop:h-[41rem] desktop:mt-12"
+							class="mt-8 shadow-[0px_0px_48px_-8px_rgba(29,_40,_48,_0.18)]"
 							src="./img/svg/account.svg"
 							alt="graph"
 						/>
 					</div>
 					<section class="">
 						<div
-							class="mt-[3.50rem] desktop:mt-[6.30rem] flex flex-col items-center"
+							class="mt-[3.50rem] sm:mt-[6.30rem] flex flex-col items-center"
 						>
 							<h3
-								class="text-center text-gray-400 font-inter text-[0.6875rem] leading-[0.6875rem] font-normal uppercase desktop:text-[1rem] desktop:leading-[1rem]"
+								class="text-center text-gray-400 font-inter text-[0.6875rem] leading-[0.6875rem] font-normal uppercase sm:text-[1rem] sm:leading-[1rem]"
 							>
 								trusted by over
 								<span class="font-bold">10.000+</span> world’s
 								best teams
 							</h3>
 							<div
-								class="w-[20rem] mt-4 flex justify-between items-center desktop:w-[59.5rem] desktop:mt-6"
+								class="w-full max-w-[20rem] mt-4 flex justify-between items-center sm:max-w-[59.5rem] sm:mt-6"
 							>
 								<a
 									class=""
 									href="https://google.com"
 									target="_blank"
 									><img
-										class="w-[3.5rem] h-[1.4rem] -ml-2 p-2 box-content desktop:w-[5rem] desktop:h-[1.6rem]"
+										class="w-[3.5rem] h-[1.4rem] -ml-2 p-2 box-content sm:w-[5rem] sm:h-[1.6rem]"
 										src="./img/svg/google-2015.svg"
 										alt="google-2015"
 								/></a>
@@ -238,7 +238,7 @@
 									href="https://airbnb.com"
 									target="_blank"
 									><img
-										class="w-[3.5rem] h-[1.1rem] -ml-2 p-2 box-content desktop:w-[5rem] desktop:h-[1.5rem]"
+										class="w-[3.5rem] h-[1.1rem] -ml-2 p-2 box-content sm:w-[5rem] sm:h-[1.5rem]"
 										src="./img/svg/airbnb.svg"
 										alt="airbnb"
 								/></a>
@@ -247,7 +247,7 @@
 									href="https://facebook.com"
 									target="_blank"
 									><img
-										class="w-[3.3rem] h-[.6rem] -ml-2 p-2 box-content desktop:w-[4.8rem] desktop:h-[1rem]"
+										class="w-[3.3rem] h-[.6rem] -ml-2 p-2 box-content sm:w-[4.8rem] sm:h-[1rem]"
 										src="./img/svg/facebook.svg"
 										alt="facebook"
 								/></a>
@@ -256,16 +256,16 @@
 									href="https://hubspot.com"
 									target="_blank"
 									><img
-										class="w-[3.5rem] h-[1rem] -ml-2 p-2 box-content desktop:w-[5rem] desktop:h-[1.5rem]"
+										class="w-[3.5rem] h-[1rem] -ml-2 p-2 box-content sm:w-[5rem] sm:h-[1.5rem]"
 										src="./img/svg/hubspot.svg"
 										alt="hubspot"
 								/></a>
 								<a
-									class="hidden desktop:block"
+									class="hidden sm:block"
 									href="https://slack.com"
 									target="_blank"
 									><img
-										class="-2 :w-[5rem] content -ml-2 p desktop box desktop:h-[1.25rem]"
+										class="-2 :w-[5rem] -ml-2 p-2 box-content sm:h-[1.25rem]"
 										src="./img/svg/slack.svg"
 										alt="slack"
 								/></a>
@@ -277,25 +277,17 @@
 		</header>
 
 		<main class="">
-			<section class="">
-				<div
-					class="container pt-8 desktop:pt-16 desktop:pb-[3.8rem] bg-white-200 border-y border-y-white-300"
-				>
-					<div class="">
-						<img
-							class="w-[24rem] h-[19rem] desktop:w-[41rem] desktop:h-[32rem]"
-							src="./img/svg/chat.svg"
-							alt="chat"
-						/>
-					</div>
+			<section class="bg-white-200 border-y border-y-white-300">
+				<div class="container pt-8 desktop:pt-16 desktop:pb-[3.8rem]">
+					<div class="" id="slider"></div>
 				</div>
 			</section>
-			<section class="">
-				<div class="container py-[3.5rem] desktop:py-[6.5rem] bg-white">
+			<section class="bg-white">
+				<div class="container py-[3.5rem] desktop:py-[6.5rem]">
 					<section class="">
 						<div class="flex flex-col items-center">
 							<h2
-								class="text-gray font-inter text-[1.125rem] leading-[1.125rem] font-semibold desktop:text-[2.5rem] desktop:leading-[2.5rem]"
+								class="text-gray font-inter text-[1.125rem] leading-[1.125rem] font-semibold md:text-[1.5rem] tablet:text-[2.5rem] tablet:leading-[2.5rem]"
 							>
 								Make your work easier
 							</h2>
@@ -303,15 +295,15 @@
 								class="flex flex-col items-center justify-center"
 							>
 								<div
-									class="space-y-[3rem] mt-[2.5rem] flex flex-col desktop:mt-[3.5rem] desktop:space-y-[0rem] desktop:flex-row desktop:flex-wrap desktop:justify-between desktop:gap-y-[5rem]"
+									class="space-y-[3rem] mt-[2.5rem] flex flex-col md:mt-[3.5rem] md:space-y-[0rem] md:flex-row md:flex-wrap md:justify-between"
 									id="feauturesList"
 								>
 									<article class="">
 										<div
-											class="flex flex-col justify-center items-center text-center desktop:w-[19rem] desktop:items-start desktop:text-start"
+											class="flex flex-col justify-center items-center text-center tablet:items-start tablet:text-start"
 										>
 											<img
-												class="w-[3rem] h-[3rem] desktop:w-[4rem] desktop:h-[4rem]"
+												class="w-[3rem] h-[3rem] tablet:w-[4rem] tablet:h-[4rem]"
 												src="./img/svg/report.svg"
 												alt=""
 											/>
@@ -321,7 +313,7 @@
 												Team Surveys & Reports
 											</h3>
 											<p
-												class="mt-[0.5rem] text-gray font-inter text-base font-normal"
+												class="max-w-[20rem] mt-[0.5rem] text-gray font-inter text-base font-normal"
 											>
 												Short, anonymous surveys track
 												your team’s needs weekly so you
@@ -331,10 +323,10 @@
 									</article>
 									<article class="">
 										<div
-											class="flex flex-col justify-center items-center text-center desktop:w-[14.5rem] desktop:items-start desktop:text-start"
+											class="flex flex-col justify-center items-center text-center tablet:items-start tablet:text-start"
 										>
 											<img
-												class="w-[3rem] h-[3rem] desktop:w-[4rem] desktop:h-[4rem]"
+												class="w-[3rem] h-[3rem] tablet:w-[4rem] tablet:h-[4rem]"
 												src="./img/svg/contacts.svg"
 												alt=""
 											/>
@@ -344,19 +336,22 @@
 												Collaborative 1:1
 											</h3>
 											<p
-												class="mt-[0.5rem] text-gray font-inter text-base font-normal"
+												class="max-w-[14.4rem] mt-[0.5rem] text-gray font-inter text-base font-normal md:max-w-[20rem]"
 											>
 												Build relationships by planning
 												1-on-1s and start meetings.
 											</p>
 										</div>
 									</article>
+									<div
+										class="absolute basis-[100%] h-[3rem] md:block md:static tablet:hidden"
+									></div>
 									<article class="">
 										<div
-											class="flex flex-col justify-center items-center text-center desktop:w-[20rem] desktop:items-start desktop:text-start"
+											class="flex flex-col justify-center items-center text-center tablet:items-start tablet:text-start"
 										>
 											<img
-												class="w-[3rem] h-[3rem] desktop:w-[4rem] desktop:h-[4rem]"
+												class="w-[3rem] h-[3rem] tablet:w-[4rem] tablet:h-[4rem]"
 												src="./img/svg/laptop-education.svg"
 												alt=""
 											/>
@@ -366,7 +361,7 @@
 												Learning Center
 											</h3>
 											<p
-												class="mt-[0.5rem] text-gray font-inter text-base font-normal"
+												class="max-w-[20rem] mt-[0.5rem] text-gray font-inter text-base font-normal"
 											>
 												Quickly get solutions tailored
 												to your personal challenges from
@@ -374,12 +369,15 @@
 											</p>
 										</div>
 									</article>
-									<article class="hidden desktop:block">
+									<div
+										class="absolute basis-[100%] h-[5rem] tablet:static"
+									></div>
+									<article class="hidden md:block">
 										<div
-											class="flex flex-col justify-center items-center text-center desktop:w-[19rem] desktop:items-start desktop:text-start"
+											class="flex flex-col justify-center items-center text-center tablet:items-start tablet:text-start"
 										>
 											<img
-												class="w-[3rem] h-[3rem] desktop:w-[4rem] desktop:h-[4rem]"
+												class="w-[3rem] h-[3rem] tablet:w-[4rem] tablet:h-[4rem]"
 												src="./img/svg/message.svg"
 												alt=""
 											/>
@@ -389,19 +387,22 @@
 												Anonymous Messaging
 											</h3>
 											<p
-												class="mt-[0.5rem] text-gray font-inter text-base font-normal"
+												class="max-w-[20rem] mt-[0.5rem] text-gray font-inter text-base font-normal"
 											>
 												Develop trust in a safe channel
 												for important conversations.
 											</p>
 										</div>
 									</article>
-									<article class="hidden desktop:block">
+									<div
+										class="absolute basis-[100%] h-[3rem] md:block md:static tablet:hidden"
+									></div>
+									<article class="hidden md:block">
 										<div
-											class="flex flex-col justify-center items-center text-center desktop:w-[14.5rem] desktop:items-start desktop:text-start"
+											class="flex flex-col justify-center items-center text-center tablet:items-start tablet:text-start"
 										>
 											<img
-												class="w-[3rem] h-[3rem] desktop:w-[4rem] desktop:h-[4rem]"
+												class="w-[3rem] h-[3rem] tablet:w-[4rem] tablet:h-[4rem]"
 												src="./img/svg/hierarchy.svg"
 												alt=""
 											/>
@@ -411,19 +412,19 @@
 												Conversation Engine
 											</h3>
 											<p
-												class="mt-[0.5rem] text-gray font-inter text-base font-normal"
+												class="max-w-[14.5rem] mt-[0.5rem] text-gray font-inter text-base font-normal md:max-w-[20rem]"
 											>
 												Communicate confidently with
 												recommended talking points.
 											</p>
 										</div>
 									</article>
-									<article class="hidden desktop:block">
+									<article class="hidden md:block">
 										<div
-											class="flex flex-col justify-center items-center text-center desktop:w-[20rem] desktop:items-start desktop:text-start"
+											class="flex flex-col justify-center items-center text-center tablet:items-start tablet:text-start"
 										>
 											<img
-												class="w-[3rem] h-[3rem] desktop:w-[4rem] desktop:h-[4rem]"
+												class="w-[3rem] h-[3rem] tablet:w-[4rem] tablet:h-[4rem]"
 												src="./img/svg/service.svg"
 												alt=""
 											/>
@@ -433,7 +434,7 @@
 												Exclusives Manager
 											</h3>
 											<p
-												class="mt-[0.5rem] text-gray font-inter text-base font-normal"
+												class="max-w-[20rem] mt-[0.5rem] text-gray font-inter text-base font-normal"
 											>
 												Access manager tips, activities
 												and best practices from our team
@@ -443,7 +444,7 @@
 									</article>
 								</div>
 								<button
-									class="mt-[2.5rem] py-[1.12rem] px-[5.31rem] rounded bg-purple-200 text-purple font-inter text-base font-medium hover:bg-purple-300 desktop:hidden"
+									class="w-full mt-[2.5rem] py-[1.12rem] rounded bg-purple-200 text-purple font-inter text-base font-medium hover:bg-purple-300 md:px-[5.31rem] md:hidden"
 									id="feauturesButton"
 								>
 									View more benefits
@@ -453,38 +454,36 @@
 					</section>
 				</div>
 			</section>
-			<section class="">
-				<div
-					class="container bg-white-200 border-y border-y-white-300 py-[2rem] desktop:py-[4.3rem]"
-				>
+			<section class="bg-white-200 border-y border-y-white-300">
+				<div class="container py-[2rem] desktop:py-[4.3rem]">
 					<section class="">
 						<div
-							class="flex flex-col justify-center items-center desktop:flex-row-reverse desktop:justify-between"
+							class="flex flex-col justify-center items-center md:flex-row-reverse md:justify-between"
 						>
 							<div>
 								<img
-									class="w-[24rem] h-[16.3rem] desktop:w-[37.2rem] desktop:h-[25.3rem]"
+									class="w-[24rem] h-[16.3rem] md:w-[37.2rem] md:h-[25.3rem]"
 									src="./img/svg/graph.svg"
 									alt="graph"
 								/>
 							</div>
 							<div
-								class="mt-[2rem] flex flex-col justify-center items-center text-center desktop:mt-[0rem] desktop:items-start desktop:text-left"
+								class="mt-[2rem] flex flex-col justify-center items-center text-center md:mt-[0rem] md:items-start md:text-left"
 							>
 								<h2
-									class="w-[10.1rem] text-gray font-inter text-[1.125rem] leading-[1.5rem] font-semibold desktop:w-[21.3rem] desktop:text-[2.5rem] desktop:leading-[3rem]"
+									class="max-w-[10.1rem] text-gray font-inter text-[1.125rem] leading-[1.5rem] font-semibold md:max-w-[21.3rem] md:text-[2.5rem] md:leading-[3rem]"
 								>
 									We work how you work everyday
 								</h2>
 								<p
-									class="w-[20rem] mt-[1rem] text-gray font-inter text-base font-normal desktop:w-[25.8rem] desktop:mt-[1.5rem]"
+									class="max-w-[20rem] mt-[1rem] text-gray font-inter text-base font-normal sm:max-w-[25.8rem] sm:mt-[1.5rem]"
 								>
 									Since the easiest things to use actually get
 									used, we adapts to the way your team works –
 									not the other way around.
 								</p>
 								<a
-									class="w-max mt-[1rem] py-[1.12rem] px-[6.12rem] rounded text-center bg-purple-400 text-white font-inter text-base font-medium hover:bg-purple-500 desktop:mt-[2rem] desktop:px-[1.3rem]"
+									class="w-max mt-[1rem] py-[1.12rem] px-[6.12rem] rounded text-center bg-purple-400 text-white font-inter text-base font-medium hover:bg-purple-500 md:mt-[2rem] md:px-[1.3rem]"
 									href="#"
 									>Get started free</a
 								>
@@ -493,311 +492,400 @@
 					</section>
 				</div>
 			</section>
-		</main>
-		<!-- ? fix bg image  -->
-		<footer class="">
-			<section>
-				<div
-					class="container pt-[3rem] pb-[3.5rem] flex flex-col items-center bg-gray-900 border-b border-b-gray-700 desktop:pt-[5rem] desktop:pb-[5rem] desktop:flex-row desktop:items-start"
-				>
-					<div
-						class="flex flex-col justify-center items-center desktop:hidden"
-					>
-						<details class="w-[20rem] cursor-pointer">
-							<summary
-								class="box-content -mx-[1rem] p-[1rem] flex justify-between text-white font-inter text-[1rem] leading-[1rem] font-semibold after:content-[url('./img/svg/arrow-down-1.svg')] select-none hover:bg-gray-600"
-							>
-								Company
-							</summary>
-							<ul class="">
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>About Us</a
-									>
-								</li>
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>Blog</a
-									>
-								</li>
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>Careers</a
-									>
-								</li>
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>Contact Us</a
-									>
-								</li>
-							</ul>
-						</details>
-						<details class="w-[20rem] cursor-pointer">
-							<summary
-								class="box-content -mx-[1rem] p-[1rem] flex justify-between text-white font-inter text-[1rem] leading-[1rem] font-semibold after:content-[url('./img/svg/arrow-down-1.svg')] select-none hover:bg-gray-600"
-							>
-								Support
-							</summary>
-							<ul class="">
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>Help Center</a
-									>
-								</li>
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>Safety Center</a
-									>
-								</li>
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>Community</a
-									>
-								</li>
-							</ul>
-						</details>
-						<details class="w-[20rem] cursor-pointer">
-							<summary
-								class="box-content -mx-[1rem] p-[1rem] flex justify-between text-white font-inter text-[1rem] leading-[1rem] font-semibold after:content-[url('./img/svg/arrow-down-1.svg')] select-none hover:bg-gray-600"
-							>
-								Legal
-							</summary>
-							<ul class="">
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>Cookies Policy</a
-									>
-								</li>
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>Privacy Policy</a
-									>
-								</li>
-								<li
-									class="box-content -mx-[1rem] p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
-								>
-									<a
-										class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
-										href="#"
-										>Terms of Service</a
-									>
-								</li>
-							</ul>
-						</details>
-					</div>
-					<div class="hidden desktop:flex desktop:gap-x-[11.25rem]">
-						<ul class="flex flex-col gap-y-[1.5rem]">
-							<li
-								class="text-white font-inter text-[1rem] leading-[1rem] font-semibold"
-							>
-								Company
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>About Us</a
-								>
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>Blog</a
-								>
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>Careers</a
-								>
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>Contact Us</a
-								>
-							</li>
-						</ul>
-						<ul class="flex flex-col gap-y-[1.5rem]">
-							<li
-								class="text-white font-inter text-[1rem] leading-[1rem] font-semibold"
-							>
-								Support
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>Help Center</a
-								>
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>Safety Center</a
-								>
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>Community</a
-								>
-							</li>
-						</ul>
-						<ul class="flex flex-col gap-y-[1.5rem]">
-							<li
-								class="text-white font-inter text-[1rem] leading-[1rem] font-semibold"
-							>
-								Legal
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>Cookies Policy</a
-								>
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>Privacy Policy</a
-								>
-							</li>
-							<li class="">
-								<a
-									class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
-									href="#"
-									>Terms of Service</a
-								>
-							</li>
-						</ul>
-					</div>
-					<div
-						class="w-[20rem] mt-[2rem] flex flex-col gap-y-[1rem] desktop:w-max desktop:gap-y-[1.25rem] desktop:mt-[0rem] desktop:ml-[11.25rem]"
-					>
-						<h4
-							class="text-white font-inter text-[1rem] leading-[1rem] font-semibold"
+			<section class="bg-white">
+				<div class="py-[3.5rem] desktop:py-[6.25rem]">
+					<section>
+						<div
+							class="container text-center flex flex-col justify-center items-center"
 						>
-							Install App
-						</h4>
-						<a
-							class="w-max"
-							href="https://play.google.com"
-							target="_blank"
+							<h2
+								class="max-w-[12.5rem] text-gray font-inter text-[1.125rem] leading-[1.5rem] font-semibold tablet:max-w-[25rem] tablet:text-[2.5rem] tablet:leading-[3rem]"
+							>
+								Why customers love working with us
+							</h2>
+							<p
+								class="max-w-[21rem] mt-[2.5rem] sm:max-w-[30rem] text-gray font-inter text-[1.25rem] leading-[2rem] font-normal tablet:hidden"
+							>
+								“It's amazing what has helped me learn about my
+								team. I don't worry about blindspots anymore,
+								and 1-on-1s have never been more productive. The
+								team loves it.”
+							</p>
+							<div
+								class="mt-[2.5rem] flex flex-col justify-center items-center tablet:hidden"
+							>
+								<img
+									class="w-[3rem] h-[3rem]"
+									src="./img/JorgeRobertson.png"
+									alt="JorgeRobertson"
+								/>
+								<footer class="">
+									<p
+										class="mt-[0.5rem] text-gray font-inter text-base leading-[1rem] font-semibold"
+									>
+										Jorge Robertson
+									</p>
+									<cite
+										class="mt-[0.5rem] text-gray font-inter text-base leading-[1rem] font-normal not-italic"
+										>CS at Google
+									</cite>
+								</footer>
+							</div>
+							<div
+								class="hidden tablet:block"
+								id="carousel"
+							></div>
+						</div>
+					</section>
+					<section class="bg-[#796EFF] xl:bg-white xl:container">
+						<div
+							class="mt-[6.25rem] py-[2rem] px-[2.9rem] flex flex-col bg-[#796EFF] justify-between items-center xl:-mx-4 xl:py-[4rem] xl:px-[5rem] xl:flex-row xl:rounded-[1rem]"
 						>
-							<img
-								class="box-content w-[11.25rem] h-[3.33rem] -m-2 p-2"
-								src="./img/svg/google-play-dark.svg"
-								alt="google-play"
-						/></a>
-						<a
-							class="w-max"
-							href="https://www.apple.com/ru/app-store/"
-							target="_blank"
-						>
-							<img
-								class="box-content w-[11.25rem] h-[3.33rem] -m-2 p-2"
-								src="./img/svg/app-store-dark.svg"
-								alt="app-store"
-						/></a>
-					</div>
+							<h2
+								class="max-w-[20rem] text-center text-white font-inter text-[1.5rem] leading-[2rem] font-semibold tablet:max-w-[27rem] tablet:text-left tablet:text-[2rem] tablet:leading-[3rem]"
+							>
+								84% of employees who use trust their direct
+								manager
+							</h2>
+							<div
+								class="mt-[2rem] flex flex-col gap-[1.5rem] md:flex-row xl:mt-0"
+							>
+								<a href="https://google.com" target="_blank">
+									<img
+										class="w-[11.25rem] h-[3.3rem] box-content -m-2 p-2"
+										src="./img/svg/google-play.svg"
+										alt="google-play"
+									/>
+								</a>
+								<a href="https://apple.com" target="_blank">
+									<img
+										class="w-[11.25rem] h-[3.3rem] box-content -m-2 p-2"
+										src="./img/svg/app-store.svg"
+										alt="app-store"
+									/>
+								</a>
+							</div>
+						</div>
+					</section>
 				</div>
-				<div
-					class="container py-[2rem] flex items-center justify-center bg-gray-900 desktop:justify-between"
-				>
-					<div class="w-[20rem]">
-						<h4
-							class="w-max text-[#D9DBE1] font-inter text-[.875rem] leading-[.875rem] font-normal"
+			</section>
+		</main>
+		<footer class="">
+			<section class="bg-gray-900">
+				<div class="pt-[3rem] pb-[3.5rem]">
+					<div class="container">
+						<section
+							class="flex flex-col items-center tablet:pt-[5rem] tablet:pb-[5rem] tablet:flex-row tablet:items-start"
 						>
-							&copy; 2020 - All rights reserved
-						</h4>
+							<div
+								class="flex flex-col justify-center items-center sm:hidden"
+							>
+								<details class="w-[20rem] cursor-pointer">
+									<summary
+										class="box-content p-[1rem] flex justify-between text-white font-inter text-[1rem] leading-[1rem] font-semibold after:content-[url('./img/svg/arrow-down-1.svg')] select-none hover:bg-gray-600"
+									>
+										Company
+									</summary>
+									<ul class="">
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>About Us</a
+											>
+										</li>
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>Blog</a
+											>
+										</li>
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>Careers</a
+											>
+										</li>
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>Contact Us</a
+											>
+										</li>
+									</ul>
+								</details>
+								<details class="w-[20rem] cursor-pointer">
+									<summary
+										class="box-content p-[1rem] flex justify-between text-white font-inter text-[1rem] leading-[1rem] font-semibold after:content-[url('./img/svg/arrow-down-1.svg')] select-none hover:bg-gray-600"
+									>
+										Support
+									</summary>
+									<ul class="">
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>Help Center</a
+											>
+										</li>
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>Safety Center</a
+											>
+										</li>
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>Community</a
+											>
+										</li>
+									</ul>
+								</details>
+								<details class="w-[20rem] cursor-pointer">
+									<summary
+										class="box-content p-[1rem] flex justify-between text-white font-inter text-[1rem] leading-[1rem] font-semibold after:content-[url('./img/svg/arrow-down-1.svg')] select-none hover:bg-gray-600"
+									>
+										Legal
+									</summary>
+									<ul class="">
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>Cookies Policy</a
+											>
+										</li>
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>Privacy Policy</a
+											>
+										</li>
+										<li
+											class="box-content p-my-[0.5rem] px-[1rem] py-[0.5rem] hover:bg-gray-700"
+										>
+											<a
+												class="text-white font-inter text-[1rem] leading-[1rem] font-normal"
+												href="#"
+												>Terms of Service</a
+											>
+										</li>
+									</ul>
+								</details>
+							</div>
+							<div
+								class="hidden sm:flex sm:justify-between sm:min-w-full tablet:min-w-[55%]"
+							>
+								<ul class="flex flex-col gap-y-[1.5rem]">
+									<li
+										class="text-white font-inter text-[1rem] leading-[1rem] font-semibold"
+									>
+										Company
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>About Us</a
+										>
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>Blog</a
+										>
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>Careers</a
+										>
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>Contact Us</a
+										>
+									</li>
+								</ul>
+								<ul class="flex flex-col gap-y-[1.5rem]">
+									<li
+										class="text-white font-inter text-[1rem] leading-[1rem] font-semibold"
+									>
+										Support
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>Help Center</a
+										>
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>Safety Center</a
+										>
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>Community</a
+										>
+									</li>
+								</ul>
+								<ul class="flex flex-col gap-y-[1.5rem]">
+									<li
+										class="text-white font-inter text-[1rem] leading-[1rem] font-semibold"
+									>
+										Legal
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>Cookies Policy</a
+										>
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>Privacy Policy</a
+										>
+									</li>
+									<li class="">
+										<a
+											class="text-white font-inter text-[1rem] leading-[1rem] font-normal hover:underline"
+											href="#"
+											>Terms of Service</a
+										>
+									</li>
+								</ul>
+							</div>
+							<div
+								class="w-[20rem] px-[1rem] mt-[2rem] flex flex-col gap-y-[1rem] sm:px-0 sm:hidden tablet:flex tablet:w-max tablet:gap-y-[1.25rem] tablet:mt-[0rem] tablet:ml-[25%]"
+							>
+								<h4
+									class="text-white font-inter text-[1rem] leading-[1rem] font-semibold"
+								>
+									Install App
+								</h4>
+								<a
+									class="w-max"
+									href="https://play.google.com"
+									target="_blank"
+								>
+									<img
+										class="box-content w-[11.25rem] h-[3.33rem] -m-2 p-2"
+										src="./img/svg/google-play-dark.svg"
+										alt="google-play"
+								/></a>
+								<a
+									class="w-max"
+									href="https://www.apple.com"
+									target="_blank"
+								>
+									<img
+										class="box-content w-[11.25rem] h-[3.33rem] -m-2 p-2"
+										src="./img/svg/app-store-dark.svg"
+										alt="app-store"
+								/></a>
+							</div>
+						</section>
 					</div>
+					<hr
+						class="mt-[3.5rem] border-0 border-b border-b-gray-600"
+					/>
+
 					<div
-						class="hidden desktop:flex desktop:flex-row desktop:gap-x-[1rem] desktop:justify-between desktop:mr-[1rem]"
+						class="container py-[2rem] flex items-center justify-center bg-gray-900 sm:justify-between"
 					>
-						<a
-							class=""
-							href="https://www.instagram.com/"
-							target="_blank"
+						<div class="w-[20rem]">
+							<h4
+								class="w-max text-[#D9DBE1] font-inter text-[.875rem] leading-[.875rem] font-normal"
+							>
+								&copy; 2020 - All rights reserved
+							</h4>
+						</div>
+						<div
+							class="hidden sm:flex sm:flex-row sm:gap-x-[1rem] sm:justify-between sm:mr-[1rem]"
 						>
-							<img
-								class="box-content -m-2 p-2 w-[2rem] h-[2rem]"
-								src="./img/svg/instargam.svg"
-								alt="instargam"
-						/></a>
-						<a
-							class=""
-							href="https://dribbble.com/"
-							target="_blank"
-						>
-							<img
-								class="box-content -m-2 p-2 w-[2rem] h-[2rem]"
-								src="./img/svg/dribbble.svg"
-								alt="dribbble"
-						/></a>
-						<a class="" href="https://twitter.com/" target="_blank">
-							<img
-								class="box-content -m-2 p-2 w-[2rem] h-[2rem]"
-								src="./img/svg/twitter.svg"
-								alt="twitter"
-						/></a>
-						<a
-							class=""
-							href="https://www.youtube.com/"
-							target="_blank"
-						>
-							<img
-								class="box-content -m-2 p-2 w-[2rem] h-[2rem]"
-								src="./img/svg/youtube.svg"
-								alt="youtube"
-						/></a>
+							<a
+								class=""
+								href="https://www.instagram.com/"
+								target="_blank"
+							>
+								<img
+									class="box-content -m-2 p-2 w-[2rem] h-[2rem]"
+									src="./img/svg/instargam.svg"
+									alt="instargam"
+							/></a>
+							<a
+								class=""
+								href="https://dribbble.com/"
+								target="_blank"
+							>
+								<img
+									class="box-content -m-2 p-2 w-[2rem] h-[2rem]"
+									src="./img/svg/dribbble.svg"
+									alt="dribbble"
+							/></a>
+							<a
+								class=""
+								href="https://twitter.com/"
+								target="_blank"
+							>
+								<img
+									class="box-content -m-2 p-2 w-[2rem] h-[2rem]"
+									src="./img/svg/twitter.svg"
+									alt="twitter"
+							/></a>
+							<a
+								class=""
+								href="https://www.youtube.com/"
+								target="_blank"
+							>
+								<img
+									class="box-content -m-2 p-2 w-[2rem] h-[2rem]"
+									src="./img/svg/youtube.svg"
+									alt="youtube"
+							/></a>
+						</div>
 					</div>
 				</div>
 			</section>
 		</footer>
-
 		<div id="root"></div>
 	</body>
 </html>

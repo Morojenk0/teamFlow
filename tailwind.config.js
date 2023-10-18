@@ -6,18 +6,20 @@ module.exports = {
 		'./src/components/**/*.{js,jsx,ts,tsx}',
 	],
 	theme: {
-		screens: {
-			desktop: '1440px',
-			mobile: '414px',
-		},
 		container: {
 			center: true,
 			padding: {
 				DEFAULT: '1rem',
+				tablet: '5rem',
 				desktop: '10.3rem',
 			},
 		},
 		extend: {
+			screens: {
+				mobile: '414px',
+				tablet: '1024px',
+				desktop: '1440px',
+			},
 			colors: {
 				white: {
 					200: '#FBFAFE',
