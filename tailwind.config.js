@@ -10,14 +10,14 @@ module.exports = {
 			center: true,
 			padding: {
 				DEFAULT: '1rem',
-				tablet: '5rem',
+				laptop: '5rem',
 				desktop: '10.3rem',
 			},
 		},
 		extend: {
 			screens: {
 				mobile: '414px',
-				tablet: '1024px',
+				laptop: '1024px',
 				desktop: '1440px',
 			},
 			colors: {
